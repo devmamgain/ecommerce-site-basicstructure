@@ -22,7 +22,7 @@ for (let prod of Productsdb)
     const para1 = document.createElement("p")
     para1.classList.add("card-price")
     para.innerText = prod.name
-    para1.innerText = prod.price
+    para1.innerText =`Rs. ${prod.price}`
     const addto = document.createElement("div")
     addto.classList.add("cta-btn")
     const addtocart = document.createElement("button")
